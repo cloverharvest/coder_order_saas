@@ -1,11 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is Coder Community App (SaaS) built on Rails 5.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version:
 
 * System dependencies
 
