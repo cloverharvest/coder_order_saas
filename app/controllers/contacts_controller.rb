@@ -11,7 +11,7 @@ class ContactsController < ApplicationController
     @contact = Contact.new(category_params)
     if @contact.save
       flash[:success] = "Message sent successfully."
-      redirect_to contacts_path
+      redirect_to new_contact_path
     else
       flash[:error] = @category.errors.full_messages.to_sentence
       render :new
