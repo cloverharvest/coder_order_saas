@@ -10,7 +10,7 @@ class ContactsController < ApplicationController
   def create
     @contact = Contact.new(category_params)
     if @contact.save
-      flash[:success] = "New contact added."
+      flash[:success] = "Message sent successfully."
       redirect_to contacts_path
     else
       flash[:error] = @category.errors.full_messages.to_sentence
