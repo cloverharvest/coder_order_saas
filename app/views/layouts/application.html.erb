@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <%= favicon_link_tag 'favicon.ico' %>
     <title>Coder Order</title>
     <%= csrf_meta_tags %>
 
@@ -18,6 +19,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
+          <i class="fa fa-code fa-3x" aria-hidden="true"></i>
           <%= link_to 'Coder Order SaaS', root_path, class: 'navbar-brand' %>
         </div>
         <div class="collapse navbar-collapse" id="main-nav-collapse">
