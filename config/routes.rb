@@ -1,10 +1,13 @@
 Rails.application.routes.draw do
-
-  root :to => "pages#home"
+  resources :contacts
 
   get "/about", to: "pages#about", as: "about"
+  
+  root :to => "pages#home"
 
-  resources :contacts
+
+
+
 
 #         root GET    /                            pages#home
 #        about GET    /about(.:format)             pages#about
