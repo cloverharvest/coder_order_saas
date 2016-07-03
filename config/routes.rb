@@ -1,8 +1,12 @@
 Rails.application.routes.draw do
+
+  get 'users/new'
+
+  resources :users
   resources :contacts
 
   get "/about", to: "pages#about", as: "about"
-  
+
   root :to => "pages#home"
 
 
