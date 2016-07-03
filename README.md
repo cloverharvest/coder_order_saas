@@ -1,25 +1,23 @@
 # README
 
-The Order of Coders is community app for programmers (SaaS) built on Rails 5.
+This is Coder Community App (SaaS) built on Rails 5.
 
-* Ruby version: 2.3.1
+Things you may want to cover:
 
-* System dependencies:
-    Postgresql (if deploying to Heroku)
-    Rails 12Factor (if deploying to Heroku)
-    Bootstrap
-    Bootstrap-sprockets
-    Font Awesome
-    Turbolinks
+* Ruby version:
+
+* System dependencies
 
 * Configuration
-    Use Sendgrid on Heroku to activate ActionMailer
 
 * Database creation
 
 * Database initialization
 
+* How to run the test suite
 
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
+
+* ...
