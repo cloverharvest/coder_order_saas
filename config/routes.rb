@@ -9,10 +9,6 @@ Rails.application.routes.draw do
 
   root :to => "pages#home"
 
-
-
-
-
 # Prefix Verb   URI Pattern                  Controller#Action
 #    users_new GET    /users/new(.:format)         users#new
 #        users GET    /users(.:format)             users#index
