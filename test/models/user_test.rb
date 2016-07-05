@@ -45,4 +45,7 @@ class UserTest < ActiveSupport::TestCase
       assert_not @user.valid?, "#{invalid_address.inspect} should be invalid"
     end
   end
+
+  # we need to construct a regular expression to match valid email addresses while not matching invalid ones.
+  
 end
