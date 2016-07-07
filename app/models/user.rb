@@ -7,6 +7,7 @@ class User < ApplicationRecord
                     format: { with: VALID_EMAIL_REGEX},
                     uniqueness: { case_sensitive: false }
   #hsp limited and allows records with empty password, that's why we need to validate in the line after
+  #hsp plus is it automatically adds an authenticate methos to the user model
   has_secure_password
   validates :password, presence: true, length: { minimum: 6}
 end
