@@ -1,8 +1,7 @@
 Rails.application.routes.draw do
-
+  get "/users/:id", to: "users#show", as: "user"
   get "/sign_up", to: "users#new", as: "sign_up"
 
-  resources :users
   resources :contacts
 
   get "/about", to: "pages#about", as: "about"
