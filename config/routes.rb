@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   root :to => "pages#home"
   get "/about", to: "pages#about", as: "about"
 
-  get "/users", to: "users#index", as: "users"
+  # get "/users", to: "users#index", as: "users"
   get "/sign_up", to: "users#new", as: "sign_up"
   post "/users", to: "users#create"
   get "/users/:id", to: "users#show", as: "user"
