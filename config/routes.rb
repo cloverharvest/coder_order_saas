@@ -1,12 +1,16 @@
 Rails.application.routes.draw do
-  get "/users/:id", to: "users#show", as: "user"
+  root :to => "pages#home"
+  get "/about", to: "pages#about", as: "about"
+
+  get "/users", to: "users#index", as: "users"
   get "/sign_up", to: "users#new", as: "sign_up"
+  get "/users/:id", to: "users#show", as: "user"
 
   resources :contacts
 
-  get "/about", to: "pages#about", as: "about"
 
-  root :to => "pages#home"
+
+
 
 # Prefix Verb   URI Pattern                  Controller#Action
 #    users_new GET    /users/new(.:format)         users#new
