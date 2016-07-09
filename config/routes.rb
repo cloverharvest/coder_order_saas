@@ -4,6 +4,7 @@ Rails.application.routes.draw do
 
   get "/users", to: "users#index", as: "users"
   get "/sign_up", to: "users#new", as: "sign_up"
+  post "/users", to: "users#create"
   get "/users/:id", to: "users#show", as: "user"
 
   resources :contacts
