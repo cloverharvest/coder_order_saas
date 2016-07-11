@@ -4,6 +4,9 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
+* {
+  font-family: Avenir;
+}
 body {
  //gradients from uigradients.com
   background: #666600; /* fallback for old browsers */
