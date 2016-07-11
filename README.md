@@ -2,22 +2,17 @@
 
 This is Coder Community App (SaaS) built on Rails 5.
 
-Things you may want to cover:
+* Ruby version: 2.3.1
 
-* Ruby version:
-
-* System dependencies
+* System dependencies: puma, bootstrap, sass-rails, bcrypt, rails-controller-testing, postgresql
 
 * Configuration
 
-* Database creation
+* Database creation: 
 
-* Database initialization
+* Database initialization:
 
-* How to run the test suite
+* How to run the test suite: rails test
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Deployment instructions:
+  1) Follow the Heroku - Rails 5 procedure for deploying: <https://devcenter.heroku.com/articles/getting-started-with-rails5>
