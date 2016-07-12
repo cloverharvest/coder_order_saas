@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   root :to => "pages#home"
   get "/about", to: "pages#about", as: "about"
 
+
   # get "/users", to: "users#index", as: "users"
   get "/sign_up", to: "users#new", as: "sign_up"
   post "/sign_up", to: "users#create", as: "users"
@@ -13,7 +14,6 @@ Rails.application.routes.draw do
   post "/login", to: "sessions#create", as: "login"
   delete "/logout", to: "sessions#destroy"
 
-  resources :sessions
   resources :contacts
 
   # Prefix Verb   URI Pattern                  Controller#Action
