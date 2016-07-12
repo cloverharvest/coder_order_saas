@@ -1,12 +1,12 @@
 # README
 
-This is Coder Community App (SaaS) built on Rails 5.
+This is a Coder Community App (SaaS) built on Rails 5.
 
 * Ruby version: 2.3.1
 
 * System dependencies: puma, bootstrap, sass-rails, bcrypt, rails-controller-testing, postgresql
 
-* Configuration
+* Configuration:
 
 * Database creation:
 
