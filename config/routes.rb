@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
   root :to => "pages#home"
   get "/about", to: "pages#about", as: "about"
+  get "/"
 
 
   # get "/users", to: "users#index", as: "users"
@@ -11,7 +12,7 @@ Rails.application.routes.draw do
   get "/users/:id", to: "users#show", as: "user"
 
   get "/login", to: "sessions#new", as: "login"
-  post "/login", to: "sessions#create", as: "login"
+  post "/login", to: "sessions#create"
   delete "/logout", to: "sessions#destroy"
 
   resources :contacts
