@@ -6,8 +6,8 @@ class User < ApplicationRecord
   validates :email, presence: true, length: { maximum: 61 },
                     format: { with: VALID_EMAIL_REGEX},
                     uniqueness: { case_sensitive: false }
-  #hsp limited and allows records with empty password, that's why we need to validate in the line after
-  #hsp plus is it automatically adds an authenticate methos to the user model
+  #hsp is limited and allows records with empty password, that's why we need to do a validation in the line after
+  #hsp plus it automatically adds an authenticate method to the user model
   has_secure_password
   validates :password, presence: true, length: { minimum: 6}
 end
