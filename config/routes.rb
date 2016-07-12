@@ -1,10 +1,9 @@
 Rails.application.routes.draw do
-  get 'sessions/new'
 
   root :to => "pages#home"
   get "/about", to: "pages#about", as: "about"
+  get "/contacts/new", to: "contacts#new", as: "new_contact"
 
-  # get "/users", to: "users#index", as: "users"
   get "/sign_up", to: "users#new", as: "sign_up"
   post "/sign_up", to: "users#create", as: "users"
   get "/users/:id", to: "users#show", as: "user"
