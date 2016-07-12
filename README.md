@@ -14,5 +14,4 @@ This is Coder Community App (SaaS) built on Rails 5.
 
 * How to run the test suite: rails test
 
-* Deployment instructions:
-  1) [Follow the Heroku - Rails 5 procedure for deploying:] (https://devcenter.heroku.com/articles/getting-started-with-rails5)
+* Deployment instructions: [Heroku - Rails 5 procedure for deploying] (https://devcenter.heroku.com/articles/getting-started-with-rails5)
