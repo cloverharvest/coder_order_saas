@@ -39,6 +39,7 @@ class User < ApplicationRecord
   # the ff. remember_token is a variable local to the authenticated? method and
   # NOT connected in any way to the remember_token on line 2
   def authenticated?(remember_token)
+    return false if remember_digest.nil?
     BCrypt::Password.new(remember_digest).is_password?(remember_token)
   end
 
