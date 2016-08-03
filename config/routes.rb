@@ -7,6 +7,7 @@
   get "/sign_up", to: "users#new", as: "sign_up"
   post "/sign_up", to: "users#create", as: "users"
   get "/users/:id", to: "users#show", as: "user"
+  get "/users/:id/edit", to: "users#edit", as: "edit_user"
 
   get "/login", to: "sessions#new", as: "login"
   post "/login", to: "sessions#create"
