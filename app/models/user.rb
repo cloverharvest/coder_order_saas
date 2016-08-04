@@ -13,7 +13,7 @@ class User < ApplicationRecord
   #hsp is limited and allows records with empty password, that's why we need to do a validation in the line after
   #hsp plus it automatically adds an authenticate method to the user model
   has_secure_password
-  validates :password, presence: true, length: { minimum: 6}
+  validates :password, presence: true, length: { minimum: 6}, allow_nil: true
 
   class << self
   # returns the hash digest of a string

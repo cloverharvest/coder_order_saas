@@ -8,6 +8,7 @@
   post "/sign_up", to: "users#create", as: "users"
   get "/users/:id", to: "users#show", as: "user"
   get "/users/:id/edit", to: "users#edit", as: "edit_user"
+  patch "/users/:id", to: "users#update"
 
   get "/login", to: "sessions#new", as: "login"
   post "/login", to: "sessions#create"
