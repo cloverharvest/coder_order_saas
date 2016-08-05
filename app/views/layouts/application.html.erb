@@ -9,15 +9,19 @@
   </head>
 
   <body>
-    <div class="container-fluid" id="page-wrap">
+    <div class="sticky header">
       <%= render "layouts/header" %>
-
+    </div>
+    <div class="container-fluid">
         <% flash.each do |message_type, message| %>
           <%= content_tag :div, message, class: "alert alert-#{message_type}" %>
         <% end %>
         <%= yield %>
         <!-- display debug information during development-->
         <!-- <%= debug(params) if Rails.env.development? %> -->
+
+    </div>
+    <div class="sticky footer">
       <%= render "layouts/footer" %>
     </div>
   </body>
