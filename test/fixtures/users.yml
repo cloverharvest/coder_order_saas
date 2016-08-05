@@ -1,4 +1,4 @@
 anna:
   name: Anna Schwab
   email: anna@schwabdev.com
-  password_digest: <%= User.digest('hallelujah') %>
+  password_digest: <%= User.digest('password') %>
