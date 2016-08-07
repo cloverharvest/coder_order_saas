@@ -40,7 +40,7 @@ class UsersEditTestTest < ActionDispatch::IntegrationTest
     assert_redirected_to edit_user_path(@user)
     name = "Fizz Buzz"
     email = "fizz@buzz.com"
-    patch user_path(@user), params; { user: { name: name,
+    patch user_path(@user), params: { user: { name: name,
                                               email: email,
                                               password: "",
                                               password_confirmation: "" } }
