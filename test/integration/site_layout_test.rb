@@ -13,6 +13,7 @@ class SiteLayoutTest < ActionDispatch::IntegrationTest
     assert_select "a[href=?]", sign_up_path
     assert_select "a[href=?]", about_path
     assert_select "a[href=?]", new_contact_path
+    get new_contact_path
     assert_select "a[href=?]", login_path
     log_in_as(@user)
     get root_path
