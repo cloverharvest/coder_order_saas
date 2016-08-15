@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22c72b25-b580-43eb-a433-9f876e638beb" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/users/edit.html.erb" />
     </list>
     <ignored path="coder_order_sass.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,14 +24,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="custom.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.scss">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2262">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-              <folding>
-                <marker date="1471236848000" expanded="true" signature="2224:2301" ph="{...}" />
-              </folding>
+            <state relative-caret-position="290">
+              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -45,11 +42,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/users/edit.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -207,14 +200,6 @@
       <pane id="Scratches" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="HbShouldOpenHtmlAsHb" value="" />
-  </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
@@ -283,21 +268,12 @@
       <workItem from="1467249682966" duration="1404000" />
       <workItem from="1467252160994" duration="286000" />
       <workItem from="1471231637104" duration="2908000" />
-      <workItem from="1471236517139" duration="374000" />
+      <workItem from="1471236517139" duration="644000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4972000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="5242000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="705" extended-state="6" />
@@ -472,8 +448,41 @@
         <state relative-caret-position="-2262">
           <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding>
+            <marker date="1471236848000" expanded="true" signature="114:140" ph="{...}" />
+            <marker date="1471236848000" expanded="true" signature="147:469" ph="{...}" />
+            <marker date="1471236848000" expanded="true" signature="502:607" ph="{...}" />
+            <marker date="1471236848000" expanded="true" signature="642:755" ph="{...}" />
+            <marker date="1471236848000" expanded="true" signature="778:904" ph="{...}" />
+            <marker date="1471236848000" expanded="true" signature="919:981" ph="{...}" />
+            <marker date="1471236848000" expanded="true" signature="1005:1407" ph="{...}" />
+            <marker date="1471236848000" expanded="true" signature="1027:1054" ph="{...}" />
+            <marker date="1471236848000" expanded="true" signature="1065:1405" ph="{...}" />
+            <marker date="1471236848000" expanded="true" signature="1128:1174" ph="{...}" />
+            <marker date="1471236848000" expanded="true" signature="1184:1261" ph="{...}" />
+            <marker date="1471236848000" expanded="true" signature="1269:1401" ph="{...}" />
+            <marker date="1471236848000" expanded="true" signature="1419:1459" ph="{...}" />
+            <marker date="1471236848000" expanded="true" signature="1476:1499" ph="{...}" />
+            <marker date="1471236848000" expanded="true" signature="1557:1647" ph="{...}" />
+            <marker date="1471236848000" expanded="true" signature="1655:1685" ph="{...}" />
+            <marker date="1471236848000" expanded="true" signature="1706:1774" ph="{...}" />
+            <marker date="1471236848000" expanded="true" signature="1727:1772" ph="{...}" />
+            <marker date="1471236848000" expanded="true" signature="1795:1873" ph="{...}" />
+            <marker date="1471236848000" expanded="true" signature="1835:1871" ph="{...}" />
+            <marker date="1471236848000" expanded="true" signature="1885:1993" ph="{...}" />
+            <marker date="1471236848000" expanded="true" signature="1938:1991" ph="{...}" />
+            <marker date="1471236848000" expanded="true" signature="2016:2052" ph="{...}" />
+            <marker date="1471236848000" expanded="true" signature="2078:2210" ph="{...}" />
+            <marker date="1471236848000" expanded="true" signature="2118:2208" ph="{...}" />
             <marker date="1471236848000" expanded="true" signature="2224:2301" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
