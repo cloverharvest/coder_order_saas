@@ -4,7 +4,7 @@ ruby '2.3.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '>= 5.0.0.rc2', '< 5.1'
 
-# gem 'pg'
+gem 'pg'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
@@ -28,6 +28,10 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '3.1.11'
 
+gem 'faker', '1.6.3'
+gem 'will_paginate',           '3.1.0'
+gem 'bootstrap-will_paginate', '0.0.10'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -44,7 +48,7 @@ group :development, :test do
 end
 
 group :development do
-  gem 'pg'
+  # gem 'pg'
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console'
   gem 'listen', '~> 3.0.5'
@@ -55,7 +59,7 @@ end
 
 group :production do
   gem 'rails_12factor'
-  gem 'pg'
+  # gem 'pg'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
