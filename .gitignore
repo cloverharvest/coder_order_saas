@@ -21,6 +21,4 @@
 .byebug_history
 
 #Ignore idea
-.idea/workspace.xml
-**/.idea/workspace.xml
-/**/.idea/workspace.xml
+.idea/*
