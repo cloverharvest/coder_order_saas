@@ -20,5 +20,4 @@
   delete "/logout", to: "sessions#destroy", as: "logout"
 
   resources :contacts
-
   end
