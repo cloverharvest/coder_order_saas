@@ -4,7 +4,7 @@ class User < ApplicationRecord
   before_create :create_activation_digest
 
 
-  before_save { self.email = email.downcase }
+  before_save { email.downcase! }
   validates :name, presence: true, length: { maximum: 50 }
 
   # no multiple dots allowed
@@ -49,7 +49,8 @@ class User < ApplicationRecord
 
     #Converts email to all lower-case.
     def downcase_email
-      self.email = email.downcase
+      email.downcase!
+      # self.email = email.downcase
     end
 
     #Creates and assigns the activation token and digest
