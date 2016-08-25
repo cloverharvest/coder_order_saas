@@ -1,6 +1,6 @@
 
 User.create!(name: "Example User",
-            email: "anna@railstutorial.org",
+            email: "anna@schwabdev.com",
             password: "fizzbuzz",
             password_confirmation: "fizzbuzz",
             admin: true,
