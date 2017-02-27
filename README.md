@@ -1,4 +1,6 @@
-# README
+# Order of Coders
+
+<a href="https://codeclimate.com/github/cloverharvest/coder_order_saas"><img src="https://codeclimate.com/github/cloverharvest/coder_order_saas/badges/gpa.svg" /></a>
 
 This is a Coder Community App (SaaS) built on Rails 5.
 
